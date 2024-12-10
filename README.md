@@ -36,7 +36,20 @@ The project uses Swagger to document the API. The Swagger documentation is avail
 ### Installation
 
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/your-username/book-management-api.git
-   cd book-management-api
-   ```
+
+```sh
+git clone https://github.com/nathnaelteshome/book-management-api.git
+cd book-management-api
+```
+
+2. Install dependencies:
+
+```sh
+npm install
+```
+
+3. Run the application:
+
+```sh
+npm start
+```
