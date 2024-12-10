@@ -12,17 +12,31 @@ This is a RESTful API for managing a collection of books. The API allows users t
 
 Basic authentication is implemented to secure the endpoints.
 
-## Endpoints
+## Technologies Used
 
-### Add a New Book
+- **Node.js**: JavaScript runtime environment.
+- **Express**: Web framework for Node.js.
+- **Sequelize**: Promise-based Node.js ORM for SQL databases.
+- **SQLite**: SQL database engine.
+- **Swagger**: API documentation tool.
+- **Swagger UI**: Tool for visualizing Swagger API documentation.
+- **Swagger JSDoc**: Generates Swagger documentation from JSDoc comments.
 
-- **Endpoint:** POST /api/books
-- **Request Body:**
-  ```json
-  {
-    "title": "The Great Gatsby",
-    "author": "F. Scott Fitzgerald",
-    "publishedDate": "1925-04-10",
-    "numberOfPages": 180
-  }
-  ```
+## Swagger Documentation
+
+The project uses Swagger to document the API. The Swagger documentation is available at `/api-docs` endpoint once the server is running. It provides a user-friendly interface to interact with the API endpoints.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14 or higher)
+- npm (v6 or higher)
+
+### Installation
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/book-management-api.git
+   cd book-management-api
+   ```
